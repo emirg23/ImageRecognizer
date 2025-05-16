@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		394FEE2D2D9D5779002DE5D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 394FEE142D9D5777002DE5D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 394FEE1B2D9D5777002DE5D5;
+			remoteInfo = imageRecognizer;
+		};
+		394FEE372D9D5779002DE5D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 394FEE142D9D5777002DE5D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 394FEE1B2D9D5777002DE5D5;
+			remoteInfo = imageRecognizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		394FEE1C2D9D5777002DE5D5 /* imageRecognizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imageRecognizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		394FEE2C2D9D5779002DE5D5 /* imageRecognizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = imageRecognizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		394FEE362D9D5779002DE5D5 /* imageRecognizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = imageRecognizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		39E1EA952DA6E44C00FF47C6 /* Exceptions for "imageRecognizer" folder in "imageRecognizer" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 394FEE1B2D9D5777002DE5D5 /* imageRecognizer */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		394FEE1E2D9D5777002DE5D5 /* imageRecognizer */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				39E1EA952DA6E44C00FF47C6 /* Exceptions for "imageRecognizer" folder in "imageRecognizer" target */,
+			);
+			path = imageRecognizer;
+			sourceTree = "<group>";
+		};
+		394FEE2F2D9D5779002DE5D5 /* imageRecognizerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = imageRecognizerTests;
+			sourceTree = "<group>";
+		};
+		394FEE392D9D5779002DE5D5 /* imageRecognizerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = imageRecognizerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		394FEE192D9D5777002DE5D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		394FEE292D9D5779002DE5D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		394FEE332D9D5779002DE5D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		394FEE132D9D5777002DE5D5 = {
+			isa = PBXGroup;
+			children = (
+				394FEE1E2D9D5777002DE5D5 /* imageRecognizer */,
+				394FEE2F2D9D5779002DE5D5 /* imageRecognizerTests */,
+				394FEE392D9D5779002DE5D5 /* imageRecognizerUITests */,
+				394FEE1D2D9D5777002DE5D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		394FEE1D2D9D5777002DE5D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				394FEE1C2D9D5777002DE5D5 /* imageRecognizer.app */,
+				394FEE2C2D9D5779002DE5D5 /* imageRecognizerTests.xctest */,
+				394FEE362D9D5779002DE5D5 /* imageRecognizerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		394FEE1B2D9D5777002DE5D5 /* imageRecognizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 394FEE402D9D5779002DE5D5 /* Build configuration list for PBXNativeTarget "imageRecognizer" */;
+			buildPhases = (
+				394FEE182D9D5777002DE5D5 /* Sources */,
+				394FEE192D9D5777002DE5D5 /* Frameworks */,
+				394FEE1A2D9D5777002DE5D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				394FEE1E2D9D5777002DE5D5 /* imageRecognizer */,
+			);
+			name = imageRecognizer;
+			packageProductDependencies = (
+			);
+			productName = imageRecognizer;
+			productReference = 394FEE1C2D9D5777002DE5D5 /* imageRecognizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		394FEE2B2D9D5779002DE5D5 /* imageRecognizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 394FEE432D9D5779002DE5D5 /* Build configuration list for PBXNativeTarget "imageRecognizerTests" */;
+			buildPhases = (
+				394FEE282D9D5779002DE5D5 /* Sources */,
+				394FEE292D9D5779002DE5D5 /* Frameworks */,
+				394FEE2A2D9D5779002DE5D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				394FEE2E2D9D5779002DE5D5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				394FEE2F2D9D5779002DE5D5 /* imageRecognizerTests */,
+			);
+			name = imageRecognizerTests;
+			packageProductDependencies = (
+			);
+			productName = imageRecognizerTests;
+			productReference = 394FEE2C2D9D5779002DE5D5 /* imageRecognizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		394FEE352D9D5779002DE5D5 /* imageRecognizerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 394FEE462D9D5779002DE5D5 /* Build configuration list for PBXNativeTarget "imageRecognizerUITests" */;
+			buildPhases = (
+				394FEE322D9D5779002DE5D5 /* Sources */,
+				394FEE332D9D5779002DE5D5 /* Frameworks */,
+				394FEE342D9D5779002DE5D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				394FEE382D9D5779002DE5D5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				394FEE392D9D5779002DE5D5 /* imageRecognizerUITests */,
+			);
+			name = imageRecognizerUITests;
+			packageProductDependencies = (
+			);
+			productName = imageRecognizerUITests;
+			productReference = 394FEE362D9D5779002DE5D5 /* imageRecognizerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		394FEE142D9D5777002DE5D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					394FEE1B2D9D5777002DE5D5 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					394FEE2B2D9D5779002DE5D5 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 394FEE1B2D9D5777002DE5D5;
+					};
+					394FEE352D9D5779002DE5D5 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 394FEE1B2D9D5777002DE5D5;
+					};
+				};
+			};
+			buildConfigurationList = 394FEE172D9D5777002DE5D5 /* Build configuration list for PBXProject "imageRecognizer" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 394FEE132D9D5777002DE5D5;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 394FEE1D2D9D5777002DE5D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				394FEE1B2D9D5777002DE5D5 /* imageRecognizer */,
+				394FEE2B2D9D5779002DE5D5 /* imageRecognizerTests */,
+				394FEE352D9D5779002DE5D5 /* imageRecognizerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		394FEE1A2D9D5777002DE5D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		394FEE2A2D9D5779002DE5D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		394FEE342D9D5779002DE5D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		394FEE182D9D5777002DE5D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		394FEE282D9D5779002DE5D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		394FEE322D9D5779002DE5D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		394FEE2E2D9D5779002DE5D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 394FEE1B2D9D5777002DE5D5 /* imageRecognizer */;
+			targetProxy = 394FEE2D2D9D5779002DE5D5 /* PBXContainerItemProxy */;
+		};
+		394FEE382D9D5779002DE5D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 394FEE1B2D9D5777002DE5D5 /* imageRecognizer */;
+			targetProxy = 394FEE372D9D5779002DE5D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		394FEE3E2D9D5779002DE5D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		394FEE3F2D9D5779002DE5D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		394FEE412D9D5779002DE5D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"imageRecognizer/Preview Content\"";
+				DEVELOPMENT_TEAM = M7W3TBGVZ3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = imageRecognizer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = emirg.imageRecognizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		394FEE422D9D5779002DE5D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"imageRecognizer/Preview Content\"";
+				DEVELOPMENT_TEAM = M7W3TBGVZ3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = imageRecognizer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = emirg.imageRecognizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		394FEE442D9D5779002DE5D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M7W3TBGVZ3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = emirg.imageRecognizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/imageRecognizer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/imageRecognizer";
+			};
+			name = Debug;
+		};
+		394FEE452D9D5779002DE5D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M7W3TBGVZ3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = emirg.imageRecognizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/imageRecognizer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/imageRecognizer";
+			};
+			name = Release;
+		};
+		394FEE472D9D5779002DE5D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M7W3TBGVZ3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = emirg.imageRecognizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = imageRecognizer;
+			};
+			name = Debug;
+		};
+		394FEE482D9D5779002DE5D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M7W3TBGVZ3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = emirg.imageRecognizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = imageRecognizer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		394FEE172D9D5777002DE5D5 /* Build configuration list for PBXProject "imageRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				394FEE3E2D9D5779002DE5D5 /* Debug */,
+				394FEE3F2D9D5779002DE5D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		394FEE402D9D5779002DE5D5 /* Build configuration list for PBXNativeTarget "imageRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				394FEE412D9D5779002DE5D5 /* Debug */,
+				394FEE422D9D5779002DE5D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		394FEE432D9D5779002DE5D5 /* Build configuration list for PBXNativeTarget "imageRecognizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				394FEE442D9D5779002DE5D5 /* Debug */,
+				394FEE452D9D5779002DE5D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		394FEE462D9D5779002DE5D5 /* Build configuration list for PBXNativeTarget "imageRecognizerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				394FEE472D9D5779002DE5D5 /* Debug */,
+				394FEE482D9D5779002DE5D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 394FEE142D9D5777002DE5D5 /* Project object */;
+}
