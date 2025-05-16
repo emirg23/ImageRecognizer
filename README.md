@@ -4,5 +4,7 @@ For better object detection results, the current yolo11s model can be replaced w
 
 
 YOLOv11 is used for both static and real-time object detection.
+
 MiDaS is used for static depth estimation.
+
 ARKit is used for real-time depth estimation.
